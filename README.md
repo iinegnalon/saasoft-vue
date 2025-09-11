@@ -1,39 +1,24 @@
-# saasoft-vue
+## SaaSoft-Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Проект реализован на **Vue 3** с использованием сборщика **Vite**.  
+Используются **Composition API**, **TypeScript**, **SCSS**, **Pinia**, **Vuetify**.
 
-## Recommended IDE Setup
+## Запуск проекта
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Чтобы запустить проект локально, выполните следующие шаги:
 
-## Type Support for `.vue` Imports in TS
+1. Клонируйте репозиторий.
+2. Установите пакеты с помощью команды `npm install`.
+3. Запустите проект с помощью команды `npm run dev`.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## Версии окружения
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Разработка велась на следующих версиях:
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+```bash
+Node.js: v22.17.0
+npm: v10.9.2
+Vue: v3.5.18
 ```
