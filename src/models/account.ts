@@ -1,4 +1,4 @@
-export type AccountType = 'LDAP' | 'Local';
+export type AccountType = 'LDAP' | 'Локальная';
 
 export interface AccountLabel {
   text: string;
